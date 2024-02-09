@@ -9,13 +9,20 @@ export interface EServiceT {
 }
 
 export const services: EServiceT[] = [
+  // {
+  //   name: `จองคิว นัดหมอ  
+  //   รับยา จ่ายยา`,
+  //   image: 'assets/e-service/service-1.png',
+  //   button: 'พบแพทย์',
+  //   imageType: 'path',
+  //   to: '/doctor-appointment',
+  // },
   {
-    name: `จองคิว นัดหมอ  
-    รับยา จ่ายยา`,
+    name: `แจ้งลา กิจ ป่วย`,
     image: 'assets/e-service/service-1.png',
-    button: 'พบแพทย์',
+    button: 'ดำเนินการ',
     imageType: 'path',
-    to: '/doctor-appointment',
+    to: '/leave',
   },
   // {
   //   name: `บริการตรวจรักษาทันตกรรม
