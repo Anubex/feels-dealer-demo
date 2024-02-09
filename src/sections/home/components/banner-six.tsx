@@ -23,7 +23,7 @@ export default function BannerSix() {
       </div>
 
       <div className="container mx-auto pb-[30px]">
-        <div className="flex gap-8 overflow-x-auto p-4 md:grid md:grid-cols-1 md:gap-8 md:whitespace-normal md:p-0">
+        <div className="grid grid-cols-1 gap-8 p-4 md:p-0">
           {services.map((serviceData: EServiceT) => (
             <div
               className="e-service-card flex flex-shrink-0 flex-col rounded-md"
