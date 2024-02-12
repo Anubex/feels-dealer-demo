@@ -5,6 +5,7 @@ import EServicePage from '@/pages/e-service'
 // import ComingSoonPage from '@/pages/coming-soon'
 import HomePage from '@/pages/home'
 import InsurancePage from '@/pages/insurance'
+import LeavePage from '@/pages/leave'
 import PackagePage from '@/pages/package'
 // export const Page404 = lazy(() => import('@/pages/page-not-found'))
 // export const ComingSoonPage = lazy(() => import('@/pages/coming-soon'))
@@ -50,9 +51,13 @@ export default function Router() {
           path: 'activate-sim',
           element: <ActivateSimPage />,
         },
+        // {
+        //   path: 'doctor-appointment',
+        //   element: <DoctorAppointmentPage />,
+        // },
         {
-          path: 'doctor-appointment',
-          element: <DoctorAppointmentPage />,
+          path: 'leave',
+          element: <LeavePage />,
         },
         {
           path: 'taxi',

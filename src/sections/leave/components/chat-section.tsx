@@ -9,7 +9,7 @@ export default function ChatSection() {
     <Box
       className="relative overflow-auto px-1 py-[50px] text-center text-2xl font-bold text-white md:px-8 md:text-3xl"
       sx={{
-        backgroundImage: `url(/assets/e-service/doctor-appointment/${
+        backgroundImage: `url(/assets/e-service/leave/${
           upLg ? 'banner.png' : 'banner-m.png'
         })`,
         backgroundRepeat: 'no-repeat',
@@ -24,17 +24,17 @@ export default function ChatSection() {
               variant="h3"
               className="!mb-[10px] block !font-bold text-[#00713b]"
             >
-              พบแพทย์
+              แจ้งลาหยุด
             </Typography>
-            <div className="!my-[20px] flex w-full justify-center">
+            {/* <div className="!my-[20px] flex w-full justify-center">
               <ReactSVG src="/assets/e-service/doctor-appointment/maki_doctor.svg" />
-            </div>
+            </div> */}
           </div>
-          <div className="flex w-full justify-center p-6 pt-0">
+          {/* <div className="flex w-full justify-center p-6 pt-0">
             <button className="flex h-[52px] w-[233px] max-w-[233px] items-center justify-center gap-[5px] rounded-[10px] bg-gradient-to-b from-[#28A745] to-[#227041] text-[20px] font-medium !text-white shadow-lg hover:!from-[#28A745]/90 hover:!to-[#227041]/90">
               แชทปรึกษา
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </Box>

@@ -13,11 +13,6 @@ export default function MainSection() {
         <Typography
           className="text-center !font-black text-[#00713b]"
           variant="h4"
-          // letterSpacing={1}
-          // sx={{
-          //   textShadow:
-          //     '-.5px -.5px 0 #00713b, .5px -.5px 0 #00713b, -.5px .5px 0 #00713b, .5px .5px 0 #00713b;',
-          // }}
         >
           เลือกบริการ
         </Typography>
@@ -41,11 +36,6 @@ export default function MainSection() {
                       <Typography
                         variant="h5"
                         className="block font-extrabold"
-                        // letterSpacing={2}
-                        // sx={{
-                        //   textShadow:
-                        //     '-.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;',
-                        // }}
                       >
                         {item.title}
                       </Typography>
