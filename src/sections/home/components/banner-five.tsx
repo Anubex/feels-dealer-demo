@@ -31,7 +31,7 @@ export default function BannerFive() {
           <div className="mingalaba-app-subsection">
             <a
               className="mingalaba-app-subsection--link mingalaba-app-subsection--apk"
-              href="https://cdn.feels.co.th/mou.apk"
+              href="https://cdn.feels.co.th/dealer.apk"
               target="_parent"
               aria-label="Download apk"
             >

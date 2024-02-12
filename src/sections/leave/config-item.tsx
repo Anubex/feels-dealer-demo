@@ -8,19 +8,19 @@ export interface LeaveItemT {
 export const items: LeaveItemT[] = [
   {
     id: 'leave-1',
-    icon: '/assets/e-service/leave/leave-1.png',
+    icon: '/assets/e-service/leave/leave-1.svg',
     title: 'ลาป่วย',
     subTitle: '',
   },
   {
     id: 'leave-2',
-    icon: '/assets/e-service/leave/leave-2.png',
+    icon: '/assets/e-service/leave/leave-2.svg',
     title: 'ลากิจ',
     subTitle: '',
   },
   {
     id: 'leave-3',
-    icon: '/assets/e-service/leave/leave-3.png',
+    icon: '/assets/e-service/leave/leave-3.svg',
     title: 'ลาพักร้อน',
     subTitle: '',
   },

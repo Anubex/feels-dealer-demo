@@ -1,6 +1,7 @@
 import SimpleLayout from '@/layouts/simple'
 import ActivateSimPage from '@/pages/activate-sim'
-import DoctorAppointmentPage from '@/pages/doctor-appointment'
+import AnnouncementPage from '@/pages/announcement'
+import DocumentPage from '@/pages/document'
 import EServicePage from '@/pages/e-service'
 // import ComingSoonPage from '@/pages/coming-soon'
 import HomePage from '@/pages/home'
@@ -14,7 +15,6 @@ import PackagePage from '@/pages/package'
 // export const PackagePage = lazy(() => import('@/pages/package'))
 // export const ActivateSimPage = lazy(() => import('@/pages/activate-sim'))
 import Page404 from '@/pages/page-not-found'
-import TaxiPage from '@/pages/taxi'
 import TopUpPage from '@/pages/topup'
 // import { Suspense, lazy } from 'react'
 import { Navigate, Outlet, useRoutes } from 'react-router-dom'
@@ -51,18 +51,18 @@ export default function Router() {
           path: 'activate-sim',
           element: <ActivateSimPage />,
         },
-        // {
-        //   path: 'doctor-appointment',
-        //   element: <DoctorAppointmentPage />,
-        // },
         {
           path: 'leave',
           element: <LeavePage />,
         },
         {
-          path: 'taxi',
-          element: <TaxiPage />,
-        },
+          path: 'document',
+          element: <DocumentPage />,
+        },        
+        {
+          path: 'announcement',
+          element: <AnnouncementPage />,
+        },                
         {
           path: 'insurance',
           element: <InsurancePage />,

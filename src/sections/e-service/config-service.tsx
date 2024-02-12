@@ -9,47 +9,28 @@ export interface EServiceT {
 }
 
 export const services: EServiceT[] = [
-  // {
-  //   name: `จองคิว นัดหมอ  
-  //   รับยา จ่ายยา`,
-  //   image: 'assets/e-service/service-1.png',
-  //   button: 'พบแพทย์',
-  //   imageType: 'path',
-  //   to: '/doctor-appointment',
-  // },
   {
     name: `แจ้งลา กิจ ป่วย`,
     image: 'assets/e-service/service-1.png',
     button: 'ดำเนินการ',
     imageType: 'path',
     to: '/leave',
-  },
-  // {
-  //   name: `บริการตรวจรักษาทันตกรรม
-  //   และเฉพาะทาง`,
-  //   image: 'assets/e-service/service-2.png',
-  //   button: 'พบแพทย์ทันตกรรม',
-  //   imageType: 'path',
-  //   textClassName:
-  //     'prose mb-[14px] w-[80%] max-w-full text-center text-xl font-bold md:text-3xl md:leading-[42px] lg:w-[60%]',
-  //   buttonClassName:
-  //     'mt-[36px] flex w-[80%] items-center justify-center gap-4 lg:w-[60%] 2xl:gap-10',
-  // },
+  },  
+
   {
-    name: `รวดเร็ว ทันใจ  
-    ปลอดภัยทุกเส้นทาง`,
-    image: 'assets/e-service/service-3.png',
-    button: 'เรียกรถ',
+    name: `ยื่นขอเอกสาร`,
+    image: 'assets/e-service/service-2.png',
+    button: 'ยื่นคำร้อง',
     imageType: 'path',
-    to: '/taxi',
+    to: '/document',
   },
-  // {
-  //   name: `จ่ายบิลได้ง่ายขึ้น
-  //   ไม่ต้องไปที่เคาท์เตอร์`,
-  //   image: 'assets/e-service/service-4.png',
-  //   button: 'ชำระบิล',
-  //   imageType: 'path',
-  // },
+  {
+    name: `ข่าวสาร ประชาสัมพันธ์`,
+    image: 'assets/e-service/service-3.png',
+    button: 'อ่านเพิ่มเติม',
+    imageType: 'path',
+    to: '/announcement',
+  },  
   // {
   //   name: `สะดวกง่าย
   //   ไม่ต้องไปถึงขนส่ง`,
@@ -57,16 +38,16 @@ export const services: EServiceT[] = [
   //   button: 'พ.ร.บ.',
   //   imageType: 'path',
   // },
-  {
-    name: `อยู่บ้านก็จ่ายได้  
-    ชำระเบี้ยประกันภัย&nbsp;ง่ายๆ`,
-    image: 'assets/e-service/service-6.png',
-    button: 'ประกันภัย',
-    imageType: 'path',
-    textClassName:
-      'prose mb-[14px] w-[68%] max-w-full text-center text-xl font-bold md:text-3xl md:leading-[42px] md:w-[68%]',
-    buttonClassName:
-      'mt-[36px] flex w-[68%] items-center justify-center gap-4 md:w-[68%] 2xl:gap-10',
-    to: '/insurance',
-  },
+  // {
+  //   name: `อยู่บ้านก็จ่ายได้  
+  //   ชำระเบี้ยประกันภัย&nbsp;ง่ายๆ`,
+  //   image: 'assets/e-service/service-6.png',
+  //   button: 'ประกันภัย',
+  //   imageType: 'path',
+  //   textClassName:
+  //     'prose mb-[14px] w-[68%] max-w-full text-center text-xl font-bold md:text-3xl md:leading-[42px] md:w-[68%]',
+  //   buttonClassName:
+  //     'mt-[36px] flex w-[68%] items-center justify-center gap-4 md:w-[68%] 2xl:gap-10',
+  //   to: '/insurance',
+  // },
 ]

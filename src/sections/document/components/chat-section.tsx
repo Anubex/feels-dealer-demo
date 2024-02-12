@@ -9,7 +9,7 @@ export default function ChatSection() {
     <Box
       className="relative overflow-auto px-1 py-[50px] text-center text-2xl font-bold text-white md:px-8 md:text-3xl"
       sx={{
-        backgroundImage: `url(/assets/e-service/leave/${
+        backgroundImage: `url(/assets/e-service/document/${
           upLg ? 'banner.jpeg' : 'banner-m.png'
         })`,
         backgroundRepeat: 'no-repeat',
@@ -24,7 +24,7 @@ export default function ChatSection() {
               variant="h3"
               className="!mb-[10px] block !font-bold text-[#00713b]"
             >
-              แจ้งลาหยุด
+              ยื่นขอเอกสาร
             </Typography>
             {/* <div className="!my-[20px] flex w-full justify-center">
               <ReactSVG src="/assets/e-service/doctor-appointment/maki_doctor.svg" />
