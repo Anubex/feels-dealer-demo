@@ -9,7 +9,7 @@ export default function ChatSection() {
     <Box
       className="relative overflow-auto px-1 py-[50px] text-center text-2xl font-bold text-white md:px-8 md:text-3xl"
       sx={{
-        backgroundImage: `url(/assets/e-service/document/${
+        backgroundImage: `url(/assets/e-service/announcement/${
           upLg ? 'banner.jpeg' : 'banner-m.png'
         })`,
         backgroundRepeat: 'no-repeat',
