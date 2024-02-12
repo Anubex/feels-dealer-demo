@@ -25,7 +25,7 @@ export const services: EServiceT[] = [
     to: '/document',
   },
   {
-    name: `ข่าวสาร ประชาสัมพันธ์`,
+    name: `ประชาสัมพันธ์`,
     image: 'assets/e-service/service-3.png',
     button: 'อ่านเพิ่มเติม',
     imageType: 'path',
