@@ -21,10 +21,10 @@ root.render(
     <PersistGate loading={null} persistor={persistor}>
       <HelmetProvider>
         <BrowserRouter>
-          <Suspense>
+         
             <App />
-            <SessionTimeout />
-          </Suspense>
+          
+          
         </BrowserRouter>
       </HelmetProvider>
     </PersistGate>
